@@ -4,7 +4,7 @@ export const SITE = {
   phone: "+917078922700",
   phoneDisplay: "+91 70789 22700",
   whatsapp: "917078922700",
-  upi: "rapemuktbharat@upi",
+  upi: "minikulsherestha70@okaxis",
   emergencyHelpline: "1091",
   url: "https://rapemuktbharat.org",
   location: "Agra, Uttar Pradesh",
