@@ -3,8 +3,8 @@ import Link from "next/link";
 
 const PROGRAMS = [
   {
-    image: "/image/Aware1.png",
-    alt: "Volunteers holding Rape Mukt Bharat Foundation awareness signs at a community event",
+    image: "/image/1.png",
+    alt: "Foundation volunteer conducting community outreach with children in a village",
     badge: "जागरूकता",
     hindi: "सामुदायिक जागरूकता अभियान",
     title: "Community Awareness Drives",
@@ -23,8 +23,8 @@ const PROGRAMS = [
     hindiBody: "महिलाओं और बच्चों की सुरक्षा हमारी प्राथमिकता है।",
   },
   {
-    image: "/image/work/support.jpg",
-    alt: "A woman sitting outside a village home",
+    image: "/image/2.png",
+    alt: "Foundation team providing care and support to a survivor",
     badge: "सहयोग",
     hindi: "उत्तरजीवी सहायता",
     title: "Survivor Support",
@@ -33,8 +33,8 @@ const PROGRAMS = [
     hindiBody: "हर पीड़िता को सम्मान और सहयोग मिलना चाहिए।",
   },
   {
-    image: "/image/who-we-are-heart.jpg",
-    alt: "Hands coming together, painted red, as a symbol of shared purpose",
+    image: "/image/Legal.png",
+    alt: "Legal awareness session educating communities about rights and access to justice",
     badge: "कानून",
     hindi: "कानूनी जागरूकता",
     title: "Legal Awareness",
@@ -53,8 +53,8 @@ const PROGRAMS = [
     hindiBody: "शिक्षा से ही बदलाव आएगा।",
   },
   {
-    image: "/image/updates/consent.jpg",
-    alt: "A woman in traditional attire standing outdoors",
+    image: "/image/3.png",
+    alt: "Field interview and community conversation as part of an awareness program",
     badge: "समुदाय",
     hindi: "सामुदायिक आउटरीच",
     title: "Community Outreach",
@@ -73,8 +73,8 @@ const PROGRAMS = [
     hindiBody: "जीवन फिर से शुरू होता है।",
   },
   {
-    image: "/image/Aware2.png",
-    alt: "Young people participating in a street awareness campaign",
+    image: "/image/4.png",
+    alt: "Foundation volunteer raising awareness and advocating for survivor support",
     badge: "युवा",
     hindi: "युवा जागरूकता कार्यक्रम",
     title: "Youth Awareness Programs",

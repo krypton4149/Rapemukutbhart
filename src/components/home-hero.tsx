@@ -99,7 +99,7 @@ export function HomeHero() {
         <div className="relative mx-auto w-full max-w-[420px] lg:max-w-none lg:justify-self-end">
           <div className="relative aspect-[3/4] overflow-hidden rounded-[1.75rem] image-premium ring-2 ring-white/10">
             <Image
-              src="/image/hero.png"
+              src="/image/Hero.png"
               alt="Illustration of a girl with bound eyes and mouth, and protesters holding Beti Bachao Beti Padhao signs"
               fill
               priority

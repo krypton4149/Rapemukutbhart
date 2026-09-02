@@ -22,8 +22,8 @@ const ARTICLES = [
     date: "Aug 12, 2026",
     title: "Understanding Consent — समझें अपने अधिकार",
     body: "A community guide on consent, safety and rights — समुदाय के लिए एक सरल मार्गदर्शिका।",
-    image: "/image/updates/consent.jpg",
-    alt: "A woman wearing a red patterned sari",
+    image: "/image/1.png",
+    alt: "Foundation volunteer conducting community awareness outreach with children in a village",
     href: "/resources",
   },
   {
@@ -32,8 +32,8 @@ const ARTICLES = [
     date: "Aug 5, 2026",
     title: "Legal Rights Every Woman Should Know — हर महिला को जानने चाहिए",
     body: "Know your legal protections under IPC, POCSO and the Criminal Law Amendment Act.",
-    image: "/image/work/youth.jpg",
-    alt: "A group of young people at a community event",
+    image: "/image/Legal.png",
+    alt: "Legal awareness illustration covering IPC, POCSO, and women's rights under Indian law",
     href: "/resources",
   },
   {
@@ -43,7 +43,7 @@ const ARTICLES = [
     title: "Personal Safety Tips for Women — महिलाओं के लिए सुरक्षा",
     body: "Practical safety strategies for daily life, travel and public spaces across India.",
     image: "/image/Aware1.png",
-    alt: "Community awareness event with Rape Mukt Bharat Foundation signs",
+    alt: "Community members holding Safe Bharat and Rape Mukt Bharat Foundation safety awareness signs",
     href: "/resources",
   },
   {
@@ -52,8 +52,8 @@ const ARTICLES = [
     date: "Jun 18, 2026",
     title: "Healing After Trauma — आघात के बाद उपचार",
     body: "Survivor voices and expert guidance on emotional recovery, counselling and community support.",
-    image: "/image/work/support.jpg",
-    alt: "A woman sitting outside a village home",
+    image: "/image/2.png",
+    alt: "Foundation team providing care and support to a survivor",
     href: "/resources",
   },
   {
@@ -62,8 +62,8 @@ const ARTICLES = [
     date: "Jun 1, 2026",
     title: "How Communities Can Help Survivors",
     body: "A guide for families, friends and communities on how to support and not re-traumatise survivors.",
-    image: "/image/who-we-are.jpg",
-    alt: "Hands stacked together in solidarity",
+    image: "/image/3.png",
+    alt: "Field interview and community conversation supporting survivors in a village",
     href: "/resources",
   },
   {
@@ -72,8 +72,8 @@ const ARTICLES = [
     date: "May 20, 2026",
     title: "Breaking Myths About Sexual Violence",
     body: "Dismantling harmful myths and misconceptions about rape and sexual assault in Indian society.",
-    image: "/image/Aware.png",
-    alt: "Children raising awareness for a rape-free India on Independence Day",
+    image: "/image/Aware2.png",
+    alt: "Street awareness drive with Rape Mukt Bharat Foundation volunteers and participants",
     href: "/resources",
   },
 ] as const;

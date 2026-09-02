@@ -183,6 +183,17 @@ export function SiteFooter() {
             <p className="mt-1 font-devanagari">
               सर्वाधिकार सुरक्षित — बनाया गया प्यार और उद्देश्य के साथ
             </p>
+            <p className="mt-2 text-zinc-400">
+              Website created by{" "}
+              <a
+                href="https://www.instagram.com/skb_creative/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-semibold text-zinc-300 transition-colors hover:text-white"
+              >
+                Shikohabad Creative Co.
+              </a>
+            </p>
           </div>
           <div className="flex gap-5">
             <Link href="/privacy" className="hover:text-white">

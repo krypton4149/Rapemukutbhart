@@ -3,8 +3,8 @@ import Link from "next/link";
 
 const CAMPAIGNS = [
   {
-    image: "/image/Aware.png",
-    alt: "Children raising awareness for a rape-free India on Independence Day",
+    image: "/image/1.png",
+    alt: "Foundation volunteer conducting community outreach with children in a village",
     overlay: "बलात्कार मुक्त भारत आंदोलन",
     date: "Ongoing 2026",
     location: "India-wide",
@@ -13,18 +13,18 @@ const CAMPAIGNS = [
       "A nationwide movement to raise awareness, break silence and build communities that stand for dignity and safety.",
   },
   {
-    image: "/image/Aware2.png",
-    alt: "Street awareness drive with Rape Mukt Bharat Foundation volunteers",
-    overlay: "जागरूकता रैली — दिल्ली",
+    image: "/image/4.png",
+    alt: "Foundation volunteer raising awareness and advocating for survivor support",
+    overlay: "जागरूकता रैली",
     date: "March 2026",
-    location: "New Delhi",
-    title: "Awareness Rally — Delhi",
+    location: "Pan-India",
+    title: "Awareness Rally",
     description:
-      "500+ participants marched for awareness and justice in the national capital, raising voices against silence.",
+      "500+ participants marched for awareness and justice, raising voices against silence.",
   },
   {
-    image: "/image/who-we-are-heart.jpg",
-    alt: "Hands stacked together in solidarity",
+    image: "/image/3.png",
+    alt: "Field interview and community conversation as part of an awareness program",
     overlay: "ग्राम जागरूकता अभियान",
     date: "February 2026",
     location: "Rural Maharashtra",
@@ -33,14 +33,14 @@ const CAMPAIGNS = [
       "Volunteers reached 12 villages over 3 days, distributing resources and holding community discussions.",
   },
   {
-    image: "/image/work/youth.jpg",
-    alt: "Students at a college awareness event",
-    overlay: "कॉलेज जागरूकता सप्ताह",
+    image: "/image/2.png",
+    alt: "Foundation team providing care and support to a survivor",
+    overlay: "उत्तरजीवी सहायता अभियान",
     date: "January 2026",
-    location: "Mumbai",
-    title: "College Awareness Week",
+    location: "Pan-India",
+    title: "Survivor Support Drive",
     description:
-      "Week-long events across 5 colleges — workshops, seminars and student-led awareness drives.",
+      "On-ground support connecting survivors with care, counselling and community resources.",
   },
   {
     image: "/image/work/safety.jpg",

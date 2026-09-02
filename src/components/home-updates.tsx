@@ -4,30 +4,30 @@ import Link from "next/link";
 const POSTS = [
   {
     href: "/resources",
-    image: "/image/updates/consent.jpg",
+    image: "/image/1.png",
     tag: "जागरूकता",
     date: "August 12, 2026",
     title: "Understanding Consent: समझें अपने अधिकार",
     body: "A community guide on consent, safety and rights — समुदाय के लिए एक सरल मार्गदर्शिका।",
-    alt: "A woman wearing a red patterned sari",
+    alt: "Foundation volunteer conducting community outreach with children in a village",
   },
   {
     href: "/campaigns",
-    image: "/image/Aware2.png",
+    image: "/image/4.png",
     tag: "अभियान",
     date: "July 28, 2026",
     title: "Awareness Drive Reaches 500 Families — 500 परिवार",
     body: "Volunteers reached twelve villages. बारह गाँव तक पहुँची जागरूकता यात्रा।",
-    alt: "Street awareness drive with Rape Mukt Bharat Foundation volunteers",
+    alt: "Foundation volunteer raising awareness and advocating for survivor support",
   },
   {
     href: "/resources",
-    image: "/image/updates/story.jpg",
+    image: "/image/3.png",
     tag: "कहानी",
     date: "July 5, 2026",
     title: "Breaking the Silence — चुप्पी तोड़ना",
     body: "How one woman's courage sparked a community conversation — एक साहसी कदम।",
-    alt: "Women sitting together outside a building",
+    alt: "Field interview and community conversation as part of an awareness program",
   },
 ] as const;
 

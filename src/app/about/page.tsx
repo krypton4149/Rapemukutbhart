@@ -2,7 +2,6 @@ import { AboutHero } from "@/components/about-hero";
 import { AboutJoin } from "@/components/about-join";
 import { AboutJourney } from "@/components/about-journey";
 import { AboutMission } from "@/components/about-mission";
-import { AboutTeam } from "@/components/about-team";
 import { AboutValues } from "@/components/about-values";
 
 export const metadata = {
@@ -16,7 +15,6 @@ export default function AboutPage() {
       <AboutMission />
       <AboutValues />
       <AboutJourney />
-      <AboutTeam />
       <AboutJoin />
     </main>
   );

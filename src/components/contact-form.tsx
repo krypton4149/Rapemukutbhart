@@ -24,19 +24,23 @@ export function ContactForm() {
     const purpose = String(data.get("purpose") ?? "");
     const message = String(data.get("message") ?? "");
 
-    const body = [
+    const whatsappMessage = [
+      "New contact form message",
+      "",
       `Name: ${name}`,
       `Email: ${email}`,
       phone ? `Phone: ${phone}` : null,
+      `Subject: ${subject}`,
       `Purpose: ${purpose}`,
       "",
+      "Message:",
       message,
     ]
       .filter(Boolean)
       .join("\n");
 
-    const mailto = `mailto:${SITE.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-    window.location.href = mailto;
+    const whatsappUrl = `https://wa.me/${SITE.whatsapp}?text=${encodeURIComponent(whatsappMessage)}`;
+    window.open(whatsappUrl, "_blank", "noopener,noreferrer");
     setSubmitted(true);
   }
 
@@ -59,13 +63,18 @@ export function ContactForm() {
             </svg>
           </div>
           <p className="mt-4 text-lg font-extrabold text-ink">
-            <span className="font-devanagari">धन्यवाद!</span> Message Ready
+            <span className="font-devanagari">धन्यवाद!</span> Opening WhatsApp
           </p>
           <p className="mt-2 text-sm leading-6 text-zinc-600">
-            Your email app should open with your message. If it didn&apos;t, write
-            to us at{" "}
-            <a href={`mailto:${SITE.email}`} className="font-semibold text-brand hover:underline">
-              {SITE.email}
+            WhatsApp should open with your message ready to send. If it
+            didn&apos;t, contact us on{" "}
+            <a
+              href={`https://wa.me/${SITE.whatsapp}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-brand hover:underline"
+            >
+              {SITE.phoneDisplay}
             </a>
           </p>
           <button
